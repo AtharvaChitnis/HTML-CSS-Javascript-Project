@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IT=edge" />
+    <meta name="author" content="Atharva Chitnis" />
+    <title>Pop-Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="content-container">
+            <h1>Welcome to the Real World</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut sit
+                rerum praesentium nemo perspiciatis minus vero sapiente repellat
+                incidunt repellendus consequuntur ad laudantium neque laboriosam iure,
+                ipsam aliquid ducimus illo?
+            </p>
+            <button class="cta-btn" id="open">Sign Up</button>
+        </div>
+    </header>
+
+    <section class="model-container" id="model">
+        <section class="model">
+            <button class="close-btn" id="close">x</button>
+            <div class="model-content">
+                <h1>Sign Up</h1>
+                <form class="model-form">
+                    <div>
+                        <label for="name"> Name </label>
+                        <input type="text" id="name" placeholder="Enter Name" class="form-input" />
+                    </div>
+                    <div>
+                        <label for="email"> E-mail </label>
+                        <input type="text" id="email" placeholder="Enter E-mail" class="form-input" />
+                    </div>
+                    <div>
+                        <label for="password"> Password </label>
+                        <input type="text" id="password" placeholder="Enter Password" class="form-input" />
+                    </div>
+                    <div>
+                        <label for="password2"> Confirm Password </label>
+                        <input type="text" id="password2" placeholder="Confirm Password" class="form-input" />
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn" />
+                </form>
+            </div>
+        </section>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
