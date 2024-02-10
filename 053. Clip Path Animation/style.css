@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(https://i.pinimg.com/originals/73/d3/eb/73d3eb6181f834ba7b0879067b32ec19.jpg);
+    background-size: cover;
+    clip-path: circle(200px at var(--1) var(--2));
+}
