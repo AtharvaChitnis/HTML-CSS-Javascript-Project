@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabbed Navigation</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="tabbed-container">
+        <div class="container">
+            <div class="menu_Links">
+                <ul>
+                    <li class="active">About</li>
+                    <li >Portfolio</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="sections">
+                <section class="about_section visible" data-section="About">
+                    <h2>About Me</h2>
+                    <img src="https://avatars.githubusercontent.com/u/149968090?s=96&v=4" alt="About Image">
+                    <h4>Atharva Chitnis</h4>
+                    <p>I am Atharva Chitnis</p>
+                </section>
+
+                <section class="portfolio_section" data-section="Portfolio">
+                    <h2>Portfolio</h2>
+                    <a href="#">
+                        <div class="team_box">
+                            <img src="assets/mobile.png">
+                            <h4>Main</h4>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="team_box">
+                            <img src="assets/mobile2.png">
+                            <h4>Main</h4>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="team_box">
+                            <img src="assets/webpage.png">
+                            <h4>Main</h4>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="team_box">
+                            <img src="assets/webpage2.png">
+                            <h4>Main</h4>
+                        </div>
+                    </a>
+                </section>
+
+
+                <section class="contact_section" data-section="Contact">
+                    <h2>Contact</h2>
+                    <div class="social_Links">
+                        <a href="">Twitter</a>
+                        <a href="">GitHub</a>
+                        <a href="">Reddit</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+	<script src="app.js"></script>
+  </body>
+</html>
