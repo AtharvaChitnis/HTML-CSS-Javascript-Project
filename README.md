@@ -47,7 +47,7 @@ Each project is contained within its own directory and includes:
 
 To explore these projects, you can clone this repository to your local machine:
 ```sh
-git clone https://github.com/yourusername/100-projects-html-css-js.git
+git clone https://github.com/yourusername/html-css-javascript.git
 ```
 
 Navigate to any project directory and open the `index.html` file in your web browser to see the project in action.
